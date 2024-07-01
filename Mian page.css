@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* { 
+margin: 0%;
+padding: 0%;
+font-family: 'poppins', 'sans-serif' ;
+box-sizing: border-box;
+}
+
+body{
+height: 90vh;
+width: 100%;
+}
+
+
+.leftright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.aside1{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.aside1 aside{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+}
+
+.aside2{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+
+.video-div{
+    margin-top: 40px;
+}
+
+.text-1{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.video-div video{
+    width: 640px;
+    height: 480px;
+}
+
+.repeat-line{
+    position: relative;
+}
+
+.repeat-line::after{
+    content: ':-)';
+    position: absolute;
+    right:0;
+    color: black;
+    background-color: white;
+    width: 100%;
+    animation: typing 3s infinite;
+}
+
+@keyframes typing {
+    to{
+        width:0%;
+    }
+}
+
+@media (min-width: 1128px) and (max-width: 1175px) {
+
+    .video-div video{
+        width: 600px;
+        height: 450px;
+    }
+
+}
+
+@media (min-width: 1130px) and (max-width: 1127px) {
+
+    .video-div video{
+        width: 550px;
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1129px) {
+
+    .video-div video{
+        width: 500px;
+        height: 350px;
+    }
+
+    .text-1{
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+
+    .video-div video{
+        width: 500px;
+        height: 350px;
+    }
+
+    .text-1{
+        font-size: 25px;
+    }
+
+    .aside1{
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .two{
+        display: none;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 799px) {
+
+    .video-div video{
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 350px;
+    }
+
+    .text-1{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .aside1{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .leftright{
+        flex-direction: row;
+    }
+
+    .two{
+        display: none;
+    }
+
+    .aside2{
+        display: none;
+    }
+}
+
+@media (min-width: 477px) and (max-width: 549px) {
+
+    .video-div video{
+        width: 450px;
+        height: 300px;
+    }
+
+    .text-1{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .aside1{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .leftright{
+        flex-direction: row;
+    }
+
+    .first{
+        display: none;
+    }
+
+    .two{
+        display: none;
+    }
+
+    .aside2{
+        display: none;
+    }
+}
+
+@media (min-width: 405px) and (max-width: 476px) {
+
+    .video-div video{
+        width: 400px;
+        height: 250px;
+    }
+
+    .text-1{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .aside1{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .leftright{
+        flex-direction: row;
+    }
+
+    .first{
+        display: none;
+    }
+
+    .two{
+        display: none;
+    }
+
+    .aside2{
+        display: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 405px) {
+
+    .video-div video{
+        width: 380px;
+        height: 230px;
+    }
+
+    .text-1{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .aside1{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .leftright{
+        flex-direction: row;
+    }
+
+    .first{
+        display: none;
+    }
+
+    .two{
+        display: none;
+    }
+
+    .aside2{
+        display: none;
+    }
+}
+
+
+

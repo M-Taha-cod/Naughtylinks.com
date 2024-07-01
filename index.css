@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* { 
+margin: 0%;
+padding: 0%;
+font-family: 'poppins', 'sans-serif' ;
+box-sizing: border-box;
+}
+
+body{
+height: 90vh;
+width: 100%;
+}
+
+.leftright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.aside1{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.aside1 aside{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+}
+
+.aside2{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    text-shadow: 1px 1px 10px grey;
+}
+
+#btn-1{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px black solid;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+#btn-1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 10px 5px black;
+    transition: 0.5s ;
+}
+
+@media (min-width: 1057px) and (max-width: 1114px) {
+    
+    .text p{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1056px) {
+    
+    .text p{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 620px) and (max-width: 999px) {
+    
+    .leftright{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .aside1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .aside2{
+        visibility: hidden;
+    }
+    
+}
+
+@media (min-width: 580px) and (max-width: 619px) {
+
+    .leftright{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .aside1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .aside2{
+        visibility: hidden;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 579px) {
+
+    .leftright{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .aside1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .aside2{
+        visibility: hidden;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+
+    .one{
+        display: none;
+    }
+
+}
