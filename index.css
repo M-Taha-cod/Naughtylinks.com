@@ -18,6 +18,7 @@ width: 100%;
     flex-direction: column;
     gap: 10px;
     margin-top: 0;
+    text-align: center;
 }
 
 .aside1{
