@@ -197,6 +197,11 @@ width: 100%;
     .aside2{
         display: none;
     }
+
+    .ads-div{
+    padding-left: 50px;
+}
+
 }
 
 @media (min-width: 405px) and (max-width: 476px) {
@@ -233,6 +238,11 @@ width: 100%;
     .aside2{
         display: none;
     }
+
+    .ads-div{
+    padding-left: 50px;
+}
+
 }
 
 @media (min-width: 0px) and (max-width: 405px) {
@@ -269,6 +279,11 @@ width: 100%;
     .aside2{
         display: none;
     }
+
+    .ads-div{
+    padding-left: 50px;
+}
+
 }
 
 
