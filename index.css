@@ -67,6 +67,10 @@ width: 100%;
     transition: 0.5s ;
 }
 
+.ads-div{
+    padding-left: 50px;
+}
+
 @media (min-width: 1057px) and (max-width: 1114px) {
     
     .text p{
