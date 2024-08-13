@@ -67,6 +67,10 @@ width: 100%;
     animation: typing 3s infinite;
 }
 
+.ads-div{
+    padding-left: 50px;
+}
+
 @keyframes typing {
     to{
         width:0%;
